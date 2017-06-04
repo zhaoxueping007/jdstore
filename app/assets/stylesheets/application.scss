@@ -17,3 +17,132 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+
+
+
+ /*===== Intro 首页-网站介绍 =====*/
+.intro-box {
+
+  /*===== 轮播内容 =====*/
+  .item {
+    h3 {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      margin-top: -35%;
+      text-shadow: 1px 1px 3px #333;
+    }
+
+    p {
+      color: #f8f8f8;
+      font-size: 22px;
+      font-style: italic;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  /*===== 换页按钮 =====*/
+  .carousel-control {
+    span {
+      margin-top: 145%;
+      font-size: 50px;
+    }
+  }
+}
+
+
+//---------Navbar---------
+
+  .navbar-default {
+      background-color: #424242;
+      border-color: #424242;
+      margin-bottom: 0;
+      border-radius: 0;
+  }
+
+  .navbar-default .navbar-brand {
+      color: #F57F17;
+      padding: 10px 15px;
+      line-height: 30px;
+  }
+
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+      color: #F57F17;
+      background-color: transparent;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+      color: #F57F17;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+      color: #F57F17;
+      background-color: transparent;
+  }
+
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+      color: #F57F17;
+      background-color: #424242;
+  }
+
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:focus,
+  .navbar-default .navbar-nav > .open > a:hover {
+      background-color: #424242;
+      color: #F57F17;
+  }
+
+    .navbar-brand > img {
+        display: inline-block; //图片和链接文字显示在同一行
+        margin-right: 10px; //图片和链接文字拉开一点距离
+        width: 32px; //定制图片宽度
+        height: 32px; //定制图片高度
+    }
+
+   //---------Content---------
+
+  .content-section-a {
+      padding: 50px 0;
+      background-color: #f8f8f8;
+  }
+
+  .content-section-b {
+      padding: 50px 0;
+      border-top: 1px solid #e7e7e7;
+      border-bottom: 1px solid #e7e7e7;
+  }
+
+  .section-heading-spacer {
+      float: left;
+      width: 200px;
+      border-top: 3px solid #e7e7e7;
+  }
+
+  .section-heading {
+      margin-bottom: 30px;
+  }
+
+  .lead {
+      font-size: 18px;
+      font-weight: 400;
+  }
+
+   //---------Footer---------
+
+  footer {
+      color: white;
+  }
+
+  footer .footer-below {
+      padding: 25px 0;
+      background-color: #424242;
+  }

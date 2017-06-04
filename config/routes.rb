@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'products#index'
+
   devise_for :users
   namespace :admin do
     resources :products
@@ -39,5 +39,5 @@ Rails.application.routes.draw do
     resources :orders
   end
 
-
+ root 'welcome#index'
 end
